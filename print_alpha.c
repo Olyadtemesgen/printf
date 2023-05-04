@@ -9,6 +9,8 @@
  * 
  * Return: number of char printed
  */
+
+//main
 int print_string(va_list l, flags_t *f)
 {
 	char *s = va_arg(l, char *);
